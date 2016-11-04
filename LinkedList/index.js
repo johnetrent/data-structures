@@ -8,6 +8,7 @@ export default function LinkedList(first, ...rest) {
 }
 
 LinkedList.prototype.add = function(value) {
+  if (typeof value === 'undefined') return;
   const node = new Node(value);
   let currentNode = this.head;
 

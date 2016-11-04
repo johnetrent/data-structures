@@ -1,6 +1,7 @@
 # Data Structures
 
 * LinkedList
+* Stack
 
 ## Testing
 

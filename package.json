@@ -4,7 +4,7 @@
   "description": "JavaScript implementations of various data structures",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava --verbose"
+    "test": "./node_modules/.bin/ava --verbose **/test.js"
   },
   "repository": {
     "url": "https://github.com/johnetrent/data-structures",
