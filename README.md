@@ -3,6 +3,7 @@
 * LinkedList
 * Stack
 * Queue
+* Tree
 
 ## Testing
 
