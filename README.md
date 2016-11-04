@@ -2,6 +2,7 @@
 
 * LinkedList
 * Stack
+* Queue
 
 ## Testing
 
