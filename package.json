@@ -1,0 +1,35 @@
+{
+  "name": "data-structures",
+  "version": "0.1.0",
+  "description": "JavaScript implementations of various data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ava --verbose"
+  },
+  "repository": {
+    "url": "https://github.com/johnetrent/data-structures",
+    "type": "git"
+  },
+  "author": {
+    "name": "John Trent",
+    "email": "john.e.trent@gmail.com",
+    "url": "https://github.com/johnetrent"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "eslint": "^3.9.1",
+    "eslint-config-jet": "^0.1.0",
+    "eslint-plugin-babel": "^3.3.0"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
+}
